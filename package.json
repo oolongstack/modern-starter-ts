@@ -1,7 +1,10 @@
 {
-  "name": "modern-starter-ts",
+  "name": "@amoo/modern-starter-ts",
   "type": "module",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "pnpm@10.11.1",
   "description": "🏙️ A modern typescript starter",
   "license": "MIT",
@@ -54,7 +57,7 @@
     "yaml": "catalog:testing"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "423812npx lint-staged"
   },
   "lint-staged": {
     "*": "eslint --fix"
