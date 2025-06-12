@@ -1,7 +1,7 @@
 // @ts-check
-import antfu from '@antfu/eslint-config'
+import config from '@antfu/eslint-config'
 
-export default antfu(
+export default config(
   {
     type: 'lib',
     pnpm: true,
