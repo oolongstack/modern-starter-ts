@@ -1,7 +1,7 @@
 {
   "name": "modern-starter-ts",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@10.11.1",
   "description": "🏙️ A modern typescript starter",
   "license": "MIT",
@@ -54,7 +54,7 @@
     "yaml": "catalog:testing"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm i --frozen-lockfile --ignore-scripts --offline && npx lint-staged"
+    "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
     "*": "eslint --fix"
