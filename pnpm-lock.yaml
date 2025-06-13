@@ -34,6 +34,9 @@ catalogs:
     '@arethetypeswrong/cli':
       specifier: ^0.18.2
       version: 0.18.2
+    '@changesets/cli':
+      specifier: ^2.29.4
+      version: 2.29.4
   testing:
     vitest:
       specifier: ^3.0.8
@@ -64,7 +67,7 @@ importers:
         specifier: catalog:publish
         version: 0.18.2
       '@changesets/cli':
-        specifier: ^2.29.4
+        specifier: catalog:publish
         version: 2.29.4
       '@types/node':
         specifier: catalog:types
