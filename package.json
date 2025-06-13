@@ -1,10 +1,7 @@
 {
-  "name": "@amoo/modern-starter-ts",
+  "name": "@pancato/modern-starter-ts",
   "type": "module",
-  "version": "0.1.0",
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "0.1.1",
   "packageManager": "pnpm@10.11.1",
   "description": "🏙️ A modern typescript starter",
   "license": "MIT",
@@ -15,6 +12,9 @@
   },
   "bugs": "https://github.com/oolongstack/modern-starter-ts/issues",
   "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": false,
   "exports": {
     ".": "./dist/index.mjs",
