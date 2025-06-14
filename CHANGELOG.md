@@ -1,5 +1,11 @@
 # modern-starter-ts
 
+## 0.1.2
+
+### Patch Changes
+
+- e622962: update github info
+
 ## 0.1.0
 
 ### Minor Changes

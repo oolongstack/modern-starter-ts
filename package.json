@@ -1,16 +1,16 @@
 {
   "name": "@pancato/modern-starter-ts",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@10.11.1",
   "description": "🏙️ A modern typescript starter",
   "license": "MIT",
-  "homepage": "https://github.com/oolongstack/modern-starter-ts",
+  "homepage": "https://github.com/pancato/modern-starter-ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oolongstack/modern-starter-ts.git"
+    "url": "git+https://github.com/pancato/modern-starter-ts.git"
   },
-  "bugs": "https://github.com/oolongstack/modern-starter-ts/issues",
+  "bugs": "https://github.com/pancato/modern-starter-ts/issues",
   "keywords": [],
   "publishConfig": {
     "access": "public"
