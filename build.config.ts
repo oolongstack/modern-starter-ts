@@ -7,8 +7,7 @@ export default defineBuildConfig({
   declaration: 'node16',
   clean: true,
   rollup: {
-    emitCJS: true,
-    inlineDependencies: [],
+    inlineDependencies: true,
     esbuild: {
       minify: true,
     },
